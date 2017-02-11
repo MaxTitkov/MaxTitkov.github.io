@@ -1,0 +1,418 @@
+
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="A short description of my project">
+      
+      
+      
+        <meta name="author" content="Max Titkov">
+      
+      
+        <link rel="shortcut icon" href="../assets/images/favicon.ico">
+      
+      <meta name="generator" content="mkdocs+mkdocs-material#1.0.3">
+    
+    
+      
+        <title>Свёрточные нейронные сети - My_Project</title>
+      
+    
+    
+      <script src="../assets/javascripts/modernizr-facb31f4a3.js"></script>
+    
+    
+      
+        
+        
+        
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,400i,700|Ubuntu+Mono">
+        <style>body,input{font-family:"Ubuntu","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Ubuntu Mono","Courier New",Courier,monospace}</style>
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/application-bc099a55ca.css">
+      
+        <link rel="stylesheet" href="../assets/stylesheets/application-02ce7adcc2.palette.css">
+      
+      
+    
+    
+  </head>
+  
+  
+  
+  
+    <body data-md-color-primary="red" data-md-color-accent="blue">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="drawer">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search">
+    <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
+    
+      <header class="md-header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href=".." title="My_Project" class=" md-icon md-icon--home  md-header-nav__button">
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <span class="md-flex__ellipsis md-header-nav__title">
+          
+            
+              
+            
+            Свёрточные нейронные сети
+          
+        </span>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="search"></label>
+          
+<div class="md-search" data-md-component="search">
+  <div class="md-search__overlay"></div>
+  <div class="md-search__inner">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" accesskey="s" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false">
+      <label class="md-icon md-search__icon" for="search"></label>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+          </div>
+      </div>
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary">
+  <label class="md-nav__title md-nav__title--site" for="drawer">
+    <i class=" md-icon md-icon--home  md-nav__button">
+      
+    </i>
+    My_Project
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  <li class="md-nav__item">
+    
+      <a href=".." title="Home" class="md-nav__link">
+        Home
+      </a>
+    
+  </li>
+
+    
+      
+      
+  <li class="md-nav__item">
+    
+      <a href="../about/" title="About" class="md-nav__link">
+        About
+      </a>
+    
+  </li>
+
+    
+      
+      
+  <li class="md-nav__item">
+    
+      <a href="../FFN/" title="Простые нейронные сети" class="md-nav__link">
+        Простые нейронные сети
+      </a>
+    
+  </li>
+
+    
+      
+      
+  <li class="md-nav__item">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+      
+    
+    
+    <a href="./" title="Свёрточные нейронные сети" class="md-nav__link md-nav__link--active">
+      Свёрточные нейронные сети
+    </a>
+    
+  </li>
+
+    
+      
+      
+  <li class="md-nav__item">
+    
+      <a href="../RNN/" title="Рекуррентные нейронные сети" class="md-nav__link">
+        Рекуррентные нейронные сети
+      </a>
+    
+  </li>
+
+    
+      
+      
+  <li class="md-nav__item">
+    
+      <a href="../Clustering/" title="Обучение без учителя" class="md-nav__link">
+        Обучение без учителя
+      </a>
+    
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#2-convolutional-neural-networkcnn" title="2. Свёрточные нейронные сети (Convolutional neural network/CNN)" class="md-nav__link">
+    2. Свёрточные нейронные сети (Convolutional neural network/CNN)
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+               
+              
+                
+                  <h1>Свёрточные нейронные сети</h1>
+                
+                <h2 id="2-convolutional-neural-networkcnn">2. Свёрточные нейронные сети (Convolutional neural network/CNN)</h2>
+<p>Свёрточные нейронные сети представляют из себя одну из разновидностей искусственных нейронных сетей. При их создании учитывались некоторые особенности зрительной коры живых организмов к распознаванию отдельных частей изображений их дальнейшему обощению по мере прохождения нервного импульса. То есть, в процессе интерпретации такой нейронной сетью, осуществляется переход от конкретных особенностей изображения к более абстрактным деталям, и далее ещё более абстрактным деталям вплоть до выделения понятий высокого уровня. Сеть сама принимает решение, как обобщать информацию. </p>
+<p>Например, модель обучена на множестве изображений лиц. Классификация этих изображений осуществлялась по именам. Для того, чтобы предсказать какого-либо человека по его фото (сеть видела ДРУГИЕ фото этого человека), модель должна сначала определить, где на фото границы областей, затем она выделяет отдельные черты лица. По мере продвижения по слоям, признаки становятся всё более и более обобщёнными и, в конечном итоге, модель "решает", что на фото Сара.</p>
+<figure>
+    <img src="https://devblogs.nvidia.com/parallelforall/wp-content/uploads/2014/09/nn_example-624x218.png"  >
+    <figcaption>Принцип работы свёрточной НС (взято <a/ href="https://devblogs.nvidia.com/parallelforall/accelerate-machine-learning-cudnn-deep-neural-network-library/">тут</a>)</figcaption>
+</figure>
+
+<p>Так как такие сети хорошо распознают изображения, в медицине их активно используют в диагностике различных заболеваний по КТ или МРТ изображениям. Например, <a/ href='https://devblogs.nvidia.com/parallelforall/nvidia-digits-alzheimers-disease-prediction/'>болезнь Альцгеймера</a>.
+Применение свёрточных нейронных сетей ограничивается не только распознаванием изображений. Они показали хорошие результаты в распознавании <a/ href='http://e-collection.library.ethz.ch/eserv/eth:49518/eth-49518-01.pdf'>эмоциональной окраски текстов</a>, <a/ href='https://cs224d.stanford.edu/reports/RhodesDylan.pdf'>идентификации авторов произведений</a>, <a/ href='http://www.sciencedirect.com/science/article/pii/S0149763416305176'>в психиатрии нашёл пока что только одну публикацию</a></p>
+<p>Для иллюстрации данной модели я решил использовать базу данных фотографий кошек и собак. То есть, я буду решать проблему бинарной классификации. База фото представлена <a/ href="https://www.kaggle.com/c/dogs-vs-cats">здесь</a>. Она содержит 25000 фотографий кошек и собак.</p>
+<p>Для иллюстрации возможностей нейронных сетей я решил использовать только 16% данных, т.е. по 1000 изображений животных каждого вида для обучения (1000 кошек+1000 собак=2000) и по 1000 изображений животных для определения точности модели (также, 1000 кошек+1000 собак=2000).</p>
+<p>Сделал я это потому, что хотелось протестировать модель в условиях недостатка данных, что часто бывает в медицине.</p>
+<p>Для обучения я выбрал архитектуру глубокой нейронной сети InceptionV3, разработанную в корпорации Google. Модель содержит 217 слоёв и 21,611,968 "синапсов".</p>
+<p>Схематически она выглядит так:</p>
+<p><img alt="png" src="../images/image03.png" /></p>
+<p>Для полной тренировки такой глубокой модели мне не хватило мощности видеокарты, поэтому я загрузил уже обученные данные в мою сеть. Обученные данные взяты из такой же модели, которую обучали приблизительно на 10 млн размеченных изображений с применением базы данных <a/ href="http://www.image-net.org/">ImageNet</a>.</p>
+<p>Загружаю созданную модель:</p>
+<pre><code class="python">model=load_model('cat_dog_inc_model.hdf5')
+
+for layer in model.layers[:205]:
+    layer.trainable = False
+model.load_weights('weights/weights-improvement-139-0.92.hdf5')
+</code></pre>
+
+<pre><code class="python">model.compile(loss='binary_crossentropy',
+              optimizer=SGD(lr=1e-4, momentum=0.9),
+                #optimizer='rmsprop',
+              metrics=['accuracy'])
+</code></pre>
+
+<p>Данную модель я тренировал в течения ~20 часов (250 эпох обучения). За этот период удалось добиться точности более 90%</p>
+<pre><code class="python">scores=model.evaluate_generator(pred_generator, val_samples=100)
+print(&quot;%s: %.2f%%&quot; % (model.metrics_names[1], scores[1]*100))
+</code></pre>
+
+<pre><code>acc: 93.00%
+</code></pre>
+<p>Изображения представляют из себя фотографии собак и кошек. Кошки обозначены, как класс 0, собаки- как класс 1:</p>
+<p><img alt="png" src="../images/cat_dog.png" /></p>
+<p>Загрузим изображения в сеть и распознаем их:</p>
+<pre><code class="python">imgs,labels=pred_generator.next()
+array_imgs=np.transpose(np.asarray([img_to_array(img) for img in imgs]),(0,2,1,3))
+predictions=model.predict(imgs)
+rounded_pred=np.asarray([round(i) for i in predictions])
+</code></pre>
+
+<pre><code class="python">pd.value_counts(labels)
+</code></pre>
+
+<pre><code>0.0    50
+1.0    50
+dtype: int64
+</code></pre>
+<pre><code class="python">pd.crosstab(labels,rounded_pred)
+</code></pre>
+
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>col_0</th>
+      <th>0.0</th>
+      <th>1.0</th>
+    </tr>
+    <tr>
+      <th>row_0</th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0.0</th>
+      <td>45</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>1.0</th>
+      <td>6</td>
+      <td>44</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<p>Итак. Для модели было загружено 100 случайных изображений: 50 изображения кошек и 50 собак. Из 50 кошек модель правильно распознала 44, что составляет 88%. Из 50 собак правильно были распознаны 45, что составляет 90%. Общая точность модели на этой узкой выборке составила 89%.</p>
+<p>Посмотрим, какие фотографии были распознаны неправильно:</p>
+<p><img alt="png" src="../images/output_15_0.png" /></p>
+<p>Синие числа-истинный класс изображений. Красные числа- предсказанные моделью (если красное число меньше 0.5, модель считает, что на фото кот, если болше 0.5, то собака). Чем больше число приближается к нулю, тем сеть больше уверена, что перед ней кот. Чем больше число приближается к 1.0, тем больше сеть уверена, что перед ней собака. Видно, что большинство ошибок модели было в отношении изображений с чёрными животными и при нетипичном ракурсе.</p>
+<p>Посмотрим первые 20 изображений, которые модель предсказала уверенно:</p>
+<p><img alt="png" src="../images/output_18_0.png" /></p>
+<p>Видно, что модель прилично справляется с задачей распознавания изображений на сравнительно небольших выборках. </p>
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../FFN/" title="Простые нейронные сети" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Простые нейронные сети
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../RNN/" title="Рекуррентные нейронные сети" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Рекуррентные нейронные сети
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 2017 Maxim Titkov
+          </div>
+        
+        powered by
+        <a href="http://www.mkdocs.org" title="MkDocs">MkDocs</a>
+        and
+        <a href="http://squidfunk.github.io/mkdocs-material/" title="Material for MkDocs">
+          Material for MkDocs</a>
+      </div>
+      
+        
+  <div class="md-footer-social">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+      <a href="https://www.facebook.com/maxim.max.399041" class="md-footer-social__link fa fa-facebook"></a>
+    
+  </div>
+
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/application-7f35cda7dd.js"></script>
+      <script>var config={url:{base:".."}},app=new Application(config);app.initialize()</script>
+      
+    
+    
+      
+    
+  </body>
+</html>
